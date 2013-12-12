@@ -1,0 +1,102 @@
+{
+    "name": "vk.com comments",
+	"version": "0.2",
+	"description": "Automatically add vk.com comments to any theme.",
+	"demo": "http://koken.me",
+	"author": {
+		"name": "Vlad Pluzhnikov",
+		"link": "http://koken.me"
+	},
+	"koken_version_required": "0.10.0-beta.1",
+	"data": {
+		"vk_Api_id": {
+			"label": "vk_Api_id",
+			"info": "You can find your ApiID at http://vk.com/developers.php?oid=-1&p=Comments",
+			"type": "string",
+			"validation": {
+		        "type": "regex",
+		        "rule": "^[0-9]{7,10}$",
+			        "error_message": "Not a valid id, enter 1000000..9999999999"
+			}
+		},
+		"vk_height": {
+			"label": "Max height",
+			"info": "Enter the max height.",
+			"type": "string",
+			"value": "500",
+			"validation": {
+		        "type": "regex",
+		        "rule": "^[0-9]{1,4}$",
+			        "error_message": "Not a valid height, 0 to unlim > 500 enter 0..9999"
+			}
+		},
+		"vk_width": {
+			"label": "Width",
+			"info": "Enter the width you would like your timeline to be.",
+			"type": "string",
+			"value": "800",
+			"validation": {
+		        "type": "regex",
+		        "rule": "^[0-9]{1,4}$",
+			        "error_message": "Not a valid width, enter 1..9999"
+			}
+		},
+		"vk_limit": {
+			"label": "Comments",
+			"info": "Enter the comments count.",
+			"type": "string",
+			"value": "10",
+			"validation": {
+		        "type": "regex",
+		        "rule": "^[0-9]{1,2}$",
+			        "error_message": "Not a valid count, enter 1..99"
+			}
+		},
+		"vk_attach_photo": {
+			"label": "Attach photo",
+			"info": "Enable attach photo comments.",
+			"type": "boolean",
+			"value": "1"
+		},
+		"vk_attach_video": {
+			"label": "Attach video",
+			"info": "Enable attach video to comments.",
+			"type": "boolean",
+			"value": "1"
+		},
+		"vk_attach_audio": {
+			"label": "Attach audio",
+			"info": "Enable attach audio to comments.",
+			"type": "boolean",
+			"value": "1"
+		},
+		"vk_attach_link": {
+			"label": "Attach link",
+			"info": "Enable attach link etc. to comments.",
+			"type": "boolean",
+			"value": "1"
+		},
+		"vk_attach_graffiti": {
+			"label": "Attach graffiti",
+			"info": "Enable attach graffiti to comments.",
+			"type": "boolean",
+			"value": "1"
+		},
+		"vk_mini": {
+			"label": "Wiget type",
+			"type": "select",
+			"value": "\"auto\"",
+			"options": [
+				{ "label": "mini", "value": "1" },
+				{ "label": "Normal", "value": "0" },
+				{ "label": "Auto", "value": "\"auto\"" }
+				]
+		},
+		"vk_autoPublish": {
+			"label": "AutoPublish",
+			"info": "Enable automatic publication comment to user status.",
+			"type": "boolean",
+			"value": "1"
+		}
+	}
+}
