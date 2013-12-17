@@ -25,6 +25,6 @@ Installation
 
 3. Once activated, click the Setup button and then enter the [ApiID](http://vk.com/developers.php?oid=-1&p=Comments) provided to you from vk.com.
 
-[picture](http://test.art4to.com/vk.settngs.gif)
-
 4. Enter the rest of the settings as desired, they are all optional.
+
+![picture](http://test.art4to.com/vk.settngs.gif)
