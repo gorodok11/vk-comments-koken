@@ -8,9 +8,9 @@ Requirements
 
 1. [Koken](http://koken.me) installation (0.9.0 or higher)
 
-2. [vkontakte](http://vk.com) account
+2. [vk.com](http://vk.com) account (available for free)
 
-3. [vk.com ApiID](http://vk.com/developers.php?oid=-1&p=Comments)
+3. [vk.com ApiID](http://vk.com/developers.php?oid=-1&p=Comments) Get ApiID for you site for free
 
 
 Demonstration
