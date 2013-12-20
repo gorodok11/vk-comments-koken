@@ -6,7 +6,7 @@ This [Koken](http://koken.me) plugin allows you to quickly and easily integrate 
 Requirements
 ------------
 
-1. [Koken](http://koken.me) installation (0.2.0 or higher)
+1. [Koken](http://koken.me) installation (0.9.0 or higher)
 
 2. [vkontakte](http://vk.com) account
 
